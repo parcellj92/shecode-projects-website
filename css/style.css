@@ -121,6 +121,7 @@ h2 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+  font-family: "Playfair Display", serif;
 }
 
 .col-sm-4 {
@@ -206,6 +207,7 @@ h1 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+  font-family: "Playfair Display", serif;
 }
 .h1,
 .h2,
@@ -246,4 +248,11 @@ h6 {
 .social-icons {
   color: var(--primary-color);
   font-size: 30px;
+}
+nav {
+  font-family: "Playfair Display", serif;
+}
+.hero h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
 }
