@@ -250,6 +250,11 @@ h6 {
     text-align: center;
     margin: 0 20px;
   }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
 }
 .social-icons {
   color: var(--secondary-color);
@@ -274,4 +279,27 @@ h3 {
 .hero {
   background: var(--secondary-color);
   padding-bottom: 30px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 1;
+  text-align: left;
+}
+
+.about-section h3 {
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+}
+
+.about-section p {
+  font-size: 16px;
+  text-align: left;
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+.about-section-content {
+  margin: 30px;
 }
