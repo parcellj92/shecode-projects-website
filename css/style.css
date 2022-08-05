@@ -259,9 +259,13 @@ h3 {
   font-size: 24px;
   color: black;
 }
-.hero,
-h2 {
-  line-height: 1;
-  font-weight: bolder;
+
+.greeting {
   font-family: "Poppins", sans-serif;
+  font-size: 32px;
+}
+
+.hero {
+  background: var(--secondary-color);
+  padding-bottom: 30px;
 }
