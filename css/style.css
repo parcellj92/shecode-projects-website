@@ -262,11 +262,22 @@ h6 {
   }
 }
 .social-icons {
+  text-decoration: none;
   color: var(--secondary-color);
   background: var(--primary-color);
   font-size: 30px;
 }
 
+.social-icons a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  font-size: 30px;
+}
+
+.social-icons a:hover {
+  color: black;
+}
 .hero,
 h3 {
   font-family: "Playfair Display", serif;
@@ -345,5 +356,16 @@ h3 {
   padding: 0;
 }
 .navbar-nav nav-link active {
+  color: var(--primary-color);
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
   color: var(--primary-color);
 }
