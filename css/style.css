@@ -344,3 +344,6 @@ h3 {
   margin: 0 auto;
   padding: 0;
 }
+.navbar-nav nav-link active {
+  color: var(--primary-color);
+}
