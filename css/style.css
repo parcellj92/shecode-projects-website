@@ -331,3 +331,16 @@ h3 {
 .content {
   margin: 30px;
 }
+
+.content h3 {
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
+.content p {
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 0;
+}
